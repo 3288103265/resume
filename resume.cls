@@ -101,9 +101,10 @@
 \newcommand*{\birthdaySymbol}{\faBirthdayCake}
 \newcommand*{\degreeSymbol}{\faGraduationCap}
 \newcommand*{\githubSymbol}{\faGithub}
+\newcommand*{\wechatSymbol}{\faComments}
 \newcommand*{\homeSymbol}{\faHome}
 \newcommand*{\infoSymbol}{\faInfoCircle}
-\newcommand*{\mailSymbol}{\faAt}
+\newcommand*{\mailSymbol}{\faEnvelope}
 \newcommand*{\mobileSymbol}{\faPhone}  % \faMobilePhone is too narrow
 \newcommand*{\linkedinSymbol}{\faLinkedin}
 \newcommand*{\locationSymbol}{\faMapMarkerAlt}
@@ -285,6 +286,11 @@
     {https://github.com/#1}%
     {\texttt{github.com/#1}}%
 }
+
+\newcommand*{\wechat}[1]{%
+  \icontext{\wechatSymbol}{#1}
+}
+
 % Email address
 \newcommand*{\email}[1]{%
   \iconlink{\mailSymbol}{mailto:#1}{\texttt{#1}}

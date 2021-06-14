@@ -13,12 +13,20 @@
 
 % File information shown at the footer of the last page
 \fileinfo{%
-  \faCopyright{} 2018--2019, Weitian LI \hspace{0.5em}
+  \faCopyright{} 2019--2021, Penghui Wang \hspace{0.5em}
   \creativecommons{by}{4.0} \hspace{0.5em}
-  \githublink{liweitianux}{resume} \hspace{0.5em}
+  \githublink{3288103265}{resume} \hspace{0.5em}
   \faEdit{} \today
 }
 
+% #TODO:
+% [x]. 简介
+% [x]. 技能与语言
+% [x]. 教育背景
+% [x]. 计算机技能
+% [].个人项目
+% [].科研成果
+% [].实习经历
 \name{鹏辉}{王}
 
 \keywords{BSD, Linux, Programming, Python, C, Shell, DevOps, SysAdmin}
@@ -30,12 +38,13 @@
 
 \profile{
   \mobile{152-5657-8159}
+  \wechat{abc3288103265}
   \email{amberstrive@gmail.com}
-  \github{3288103265} \\
+  \home{新疆 \textbullet 北屯市}\\
+  \github{3288103265} 
   \university{中国科学技术大学}
   \degree{电子与通信工程 \textbullet 硕士}
   \birthday{1996-02-13}
-  \home{新疆 \textbullet 北屯市}
   % Custom information:
   % \icontext{<icon>}{<text>}
   % \iconlink{<icon>}{<link>}{<text>}
@@ -48,8 +57,7 @@
 % Summary & Objectives
 %======================================================================
 {\onehalfspacing\hspace{2em}%
-电子与通信工程专业（人工智能方向）硕士研究生，主要研究方向为计算机视觉（图像生成）和社交网络（流行度预测，谣言检测），有较扎实的数学与计算机科学基础。
-研究生阶段参与了多项科研内容的研究，熟练掌握 Python, PyTorch, opencv等相关工具。具有积极实践探索合作精神。
+电子与通信工程专业（人工智能方向）硕士研究生，主要研究方向为计算机视觉（图像生成）和社交网络（流行度预测，谣言检测）。研究生阶段参与了多项科研项目以及相关竞赛，具有较扎实的数学和计算机基础，掌握了深度学习，图像处理，数据分析等技能，并且具有一定的积极实践、探索合作的精神。
 \par}
 
 %======================================================================
@@ -61,16 +69,16 @@
   %   \icon{\faFreebsd} DragonFly BSD \& FreeBSD （7 年）
   % }
   \comptence{编程语言}{%
-    Python, C, Shell, Matlab
+    Python, Shell, Matlab, C, C$\#$
   }
   \comptence{相关工具}{%
-    PyTorch, OpenCV, Pandas, Matplotlib, Scikit-learn
+    PyTorch, PyTorch-Lightning, OpenCV, Pandas, Matplotlib, Scikit-learn
   }
   \comptence{}{%
-   Docker, Git, SSH, Tmux, Vim, Latex, VS Code
+   Docker, Git, SSH, Tmux, Vim, Latex, Jupyter, VS Code
   }
   \comptence{\icon{\faLanguage} 语言}{
-    \textbf{English} --- 读写（文献阅读和论文撰写），听说（简单日常交流）
+    \textbf{English} --- 读写，听说（日常交流），本科曾参与三个月的澳大利亚暑研项目
   }
 \end{competences}
 
@@ -84,7 +92,8 @@
     {中国科学技术大学}%
     {信息科学技术学院}%
     {电子与通信工程}%
-    {硕士}
+    {硕士|导师-毛震东｜成绩-3.77/4.3(21/192)|荣誉-硕士一等学业奖学金}
+    % {导师：毛震东}%
 
   \separator{0.5ex}
   \education%
@@ -93,91 +102,65 @@
     {中国科学技术大学}%
     {工程科学学院}%
     {精密机械与精密仪器}%
-    {学士}
+    {学士｜成绩-3.17/4.3｜荣誉-2017年国家励志奖学金}
 \end{educations}
 
 %======================================================================
 \sectionTitle{计算机技能}{\faCogs}
 %======================================================================
 \begin{itemize}
-  \item DragonFly BSD 操作系统开发者：
-    200+ 代码提交；内核以及系统工具；
-    在邮件列表和 IRC 频道交流和回答问题
-  \item 使用 Ansible 管理 VPS，部署个人域名邮箱、权威 DNS、网站、Git、IRC 等服务
-  \item 搭建并管理课题组的工作站、计算集群（4 节点）和网络设备
-  \item 参与配置和测试上海天文台的 SKA 高性能计算集群原型机
-    （1 管理节点 + 1 存储节点 + 4 计算节点）
-  \item 设计并开发了\enquote{2014 第一届中国—新西兰联合 SKA 暑期学校}的整个网站
-    （Django, Bootstrap, jQuery）
+  \item 计算机视觉：对图像生成框架GANs有所研究，对底层视觉任务有所了解（例如：detectron2和OpenMMLab等），此外对于虚假图像检测、图像流行度预测、图像字幕生成、VR（Hololens开发）有简单的项目经验。
+  \item 自然语言处理：有过谣言检测项目经验，对于Bert等常见的开源模型与工具有简单了解并能使用。
+  \item 深度学习框架：熟练使用PyTorch，包括神经网络构建，模型训练，多卡并行（DP/DDP），结果可视化等。
+  \item 其他：使用Docker进行开发环境的快速构建与部署，使用Git/GitHub进行简单的代码版本控制和实验追踪。
 \end{itemize}
 
 %======================================================================
-\sectionTitle{个人项目}{\faCode}
+\sectionTitle{项目经历}{\faCode}
 %======================================================================
 \begin{itemize}
-  \item \link{https://github.com/liweitianux/atoolbox}{\texttt{atoolbox}}:
-    (Python, Shell)
-    多年来累积的各种工具，帮助管理系统、执行常用任务、分析天文数据等
-  \item \link{https://github.com/liweitianux/dfly-update}{\texttt{dfly-update}}:
-    (Shell)
-    DragonFly BSD 系统更新程序
-  \item \link{https://github.com/liweitianux/openrcs}{\texttt{openrcs}}:
-    (C)
-    改进 \texttt{OpenBSD RCS}，使其与 \texttt{GNU RCS} 足够兼容
-  \item \link{https://github.com/liweitianux/fg21sim}{\texttt{fg21sim}}:
-    (Python)
-    模拟低频射电天空图像
-  \item \link{https://github.com/liweitianux/cdae-eor}{\texttt{cdae-eor}}:
-    (Python, Keras)
-    使用卷积去噪自动编码器（CDAE）分离宇宙再电离（EoR）信号
-  \item \link{https://github.com/liweitianux/chandra-acis-analysis}{\texttt{chandra-acis-analysis}}:
-    (Python, Shell, Tcl)
-    X~射线天文观测数据的半自动化分析程序
-  \item \link{https://github.com/liweitianux/resume}{\texttt{resume}}:
-    (\LaTeX)
-    此简历的模板和源文件
+  \item  （2020/11-现在）\textbf{多模态图像生成}：根据文本描述，场景图等多种模态信息，生成符合条件的图像。通过对生成图像中物体质量的分析，发现有些类别物体的生成质量需要提升，拟采用对比学习来改进。在四个月的时间里，完成了想法的论证，多轮实验迭代以及最终模型调整。 刷新了layout2img任务的指标，拟投论文。
+  \item （2020/3-2020/5）\textbf{IEEE网络流行度预测}：根据Flickr上博文预测流行度。作为主力队员，在队伍中负责图像数据的处理以及基于TCN的算法探索。在三个月的时间里，完成了多种图像特征的提取，基于xgboost的基础模型搭建以及基于TCN的模型搭建与验证。最终获得比赛第一名，并以共同一作发表论文。
+  \item （2020/3-2020/5）\textbf{ICIP图像流行度预测}：预测网络图像流行度。作为队员参与了图像数据的处理，获得第一名以及1500美金的奖金
+  \item （2019/10-2019/12）\textbf{多模态微博谣言检测}：根据文本和图像检测微博谣言。使用Bert提取文本的特征，使用VGG19提取图像特征，将两种特征结合进行谣言的预测，提升了11$\%$谣言检测的准确度，并申请专利。
+
 \end{itemize}
 
 %======================================================================
 \sectionTitle{科研成果}{\faAtom}
 %======================================================================
 \begin{itemize}
-  \item 开发低频射电天空图像模拟软件：
-    \link{https://github.com/liweitianux/fg21sim}{\texttt{FG21sim}}
-  \item 开发程序实现~X~射线天文观测数据的半自动化分析：
-    \link{https://github.com/liweitianux/chandra-acis-analysis}{\texttt{chandra-acis-analysis}}
-  \item 利用卷积去噪自动编码器（CDAE）在频率维度分离微弱的宇宙再电离（EoR）信号
-  \item 利用卷积神经网络（CNN）对 FIRST 巡天的射电星系图像根据形态特征进行分类
-  \item 显著改进星系团射电晕的建模，并考虑低频干涉阵列的复杂仪器效应
-  \item 改进~X~射线光谱拟合的背景成分建模，获到更准确可靠的拟合结果
-  \item 发表 2 篇第一作者以及 8 篇合作者 SCI 论文
+  \item \textbf{A featurte generalization framework for social media popularity prediction.} ACM Meltimedia 2020. 
+  Kai Wang*, \textbf{Penghui Wang*}, Xin Chen, Qishi Huang, Zhendong Mao, and Yongdong Zhang.
+  \item \textbf{一种基于预训练语言模型的多模态网络谣言检测方法}。张勇东;毛震东;邓旭冉;\textbf{王鹏辉}。专利（申请）号：CN201911376275.4
+
 \end{itemize}
 
-%======================================================================
-\sectionTitle{实习经历}{\faBriefcase}
-%======================================================================
-\begin{experiences}
-  \experience%
-    [2018.04]%
-    {2018.08}%
-    {数据工程师 @ 上海领脉网络科技（初创公司）}%
-    [\begin{itemize}
-      \item 从 Amazon 网页搜索并挖取商品与广告信息
-        （Python, Requests, BeautifulSoup）
-      \item 配置 Airflow 服务器和数据库等基础设施，
-        定期从 Amazon 获取产品销售与广告投放等数据
-      \item 开发网站（Flask, jQuery），帮助客户优化 Amazon 广告投放
-    \end{itemize}]
+% %======================================================================
+% \sectionTitle{实习经历}{\faBriefcase}
+% %======================================================================
+% \begin{experiences}
+%   \experience%
+%     [2018.04]%
+%     {2018.08}%
+%     {数据工程师 @ 上海领脉网络科技（初创公司）}%
+%     [\begin{itemize}
+%       \item 从 Amazon 网页搜索并挖取商品与广告信息
+%         （Python, Requests, BeautifulSoup）
+%       \item 配置 Airflow 服务器和数据库等基础设施，
+%         定期从 Amazon 获取产品销售与广告投放等数据
+%       \item 开发网站（Flask, jQuery），帮助客户优化 Amazon 广告投放
+%     \end{itemize}]
 
-  \separator{0.5ex}
-  \experience%
-    [2013.07]%
-    {2013.09}%
-    {网站开发 @ 97 随访（初创公司）}%
-    [\begin{itemize}
-      \item 后端开发（Django），完成用户注册、数据存储和搜索等功能
-      \item 前端开发（jQuery, AJAX），对患者各项指标随时间的变化进行可视化
-    \end{itemize}]
-\end{experiences}
+%   \separator{0.5ex}
+%   \experience%
+%     [2013.07]%
+%     {2013.09}%
+%     {网站开发 @ 97 随访（初创公司）}%
+%     [\begin{itemize}
+%       \item 后端开发（Django），完成用户注册、数据存储和搜索等功能
+%       \item 前端开发（jQuery, AJAX），对患者各项指标随时间的变化进行可视化
+%     \end{itemize}]
+% \end{experiences}
 
 \end{document}
