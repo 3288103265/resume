@@ -11,7 +11,7 @@ submitted/
 dist/
 *.tar.bz2
 resume-en.pdf
-resume-zh.pdf
+# resume-zh.pdf
 .vscode/settings.json
 *.zip
 OpenType/
