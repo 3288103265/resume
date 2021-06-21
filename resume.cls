@@ -102,6 +102,8 @@
 \newcommand*{\degreeSymbol}{\faGraduationCap}
 \newcommand*{\githubSymbol}{\faGithub}
 \newcommand*{\wechatSymbol}{\faComments}
+\newcommand*{\workSymbol}{\faBriefcase}
+\newcommand*{\researchSymbol}{\faMicroscope}
 \newcommand*{\homeSymbol}{\faHome}
 \newcommand*{\infoSymbol}{\faInfoCircle}
 \newcommand*{\mailSymbol}{\faEnvelope}
@@ -289,6 +291,12 @@
 
 \newcommand*{\wechat}[1]{%
   \icontext{\wechatSymbol}{#1}
+}
+\newcommand*{\work}[1]{%
+  \icontext{\workSymbol}{#1}
+}
+\newcommand*{\research}[1]{%
+  \icontext{\researchSymbol}{#1}
 }
 
 % Email address
