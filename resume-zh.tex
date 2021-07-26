@@ -124,8 +124,8 @@
 \sectionTitle{项目经历}{\faCode}
 %======================================================================
 \begin{itemize}
-  \item  （2020/11-现在）\textbf{多模态图像生成}：该任务可以根据图像布局或文本描述来生成对应图像。针对现有方法中不同类别的生成图像之间判别性不强的问题，提出基于对比学习的类别特征优化方法，通过拉近同类别正例样本对的距离和推远负例样本对的距离来生成更为清晰的图像。实验结果表明该方法能将\textbf{layout2img}任务指标FID提升11.24$\%$，拟投稿CCF-A类期刊TMM.
-  \item （2020/3-2020/5）\textbf{IEEE网络流行度预测}：该任务根据Flickr上博客的多种模态信息预测流行度。针对验证集中某类别数据的严重缺失导致的泛化性差的现象，提出了使用两个独立的专家模型分别处理缺失和未缺失两种情况，并对结果进行集成来提高预测准确度。实验证明该方法在src指标上能够提升13.6$\%$,最终获得比赛\textbf{第一名}，并以共同一作发表论文。
+  \item  （2020/11-现在）\textbf{多模态图像生成}：该任务可以根据图像布局或文本描述来生成对应图像。针对现有方法中不同类别的生成图像之间判别性不强的问题，提出基于对比学习的类别特征优化方法，通过拉近同类别正例样本对的距离和推远负例样本对的距离来生成更为清晰的图像。实验表明能将\textbf{layout2img}任务指标FID提升11.24$\%$。
+  \item （2020/3-2020/5）\textbf{IEEE网络流行度预测}：该任务根据Flickr上博客的多种模态信息预测流行度。针对验证集中某类别数据的严重缺失导致的泛化性差的现象，提出了使用两个专家模型分别处理缺失/未缺失两种情况，并对结果进行集成。实验证明该方法在src指标上能够提升13.6$\%$,最终获得比赛\textbf{第一名}，并以共同一作发表论文。
   \item （2020/3-2020/5）\textbf{ICIP图像流行度预测}：该任务预测网络图像流行度。发现以往方法缺乏对用户历史信息的有效探索，提出了使用时间序列动态平均的方法和时序卷积TCN相结合的方法，用来提升预测结果的的准确度。该方法相比去年提升了8$\%$的MSE, 获得\textbf{第一名}以及1500美金的奖金。
   \item （2019/10-2019/12）\textbf{多模态微博谣言检测}：根据文本和图像信息检测微博谣言。基于预训练模型来深度编码图像和文本，然后提出双向attention重建的方法来有效融合图像文本特征，以模态互补的方式实现谣言的准确预测，提升了11$\%$谣言检测的准确度，并申请专利。
 
@@ -135,9 +135,15 @@
 \sectionTitle{科研成果}{\faAtom}
 %======================================================================
 \begin{itemize}
-  \item \textbf{A feature generalization framework for social media popularity prediction.} CCF-A, ACM multimedia'20
-  Kai Wang*, \textbf{Penghui Wang*}, Xin Chen, Qishi Huang, Zhendong Mao, and Yongdong Zhang.
-  \item \textbf{一种基于预训练语言模型的多模态网络谣言检测方法}。张勇东;毛震东;邓旭冉;\textbf{王鹏辉}。专利（申请）号：CN201911376275.4
+  \item \textbf{Similarity sensing contrastive learning for layout-to-image generation.} CCF-B, IEEE TMM在投\\
+  \textbf{Penghui Wang}，Zhendong Mao, and Yongdong Zhang.\\
+  针对基于layout图像生成中语义模糊，提出相似度感知对比学习用来增强语义区分度，提升了11.24$\%$的FID
+  \item \textbf{A feature generalization framework for social media popularity prediction.} CCF-A, ACM multimedia'20\\
+  Kai Wang*, \textbf{Penghui Wang*}, Xin Chen, Qishi Huang, Zhendong Mao, and Yongdong Zhang.\\
+  针对预测数据中缺失严重的问题，提出集成专家模型提升模型的泛化性能，提升了13.6$\%$的src
+  \item \textbf{一种基于预训练语言模型的多模态网络谣言检测方法}。\\
+  张勇东;毛震东;邓旭冉;\textbf{王鹏辉}。专利（申请）号：CN201911376275.4\\
+  针对谣言预测多模态数据缺乏有效利用的问题，提出基于预训练模型的特征融合方法，提升了11$\%$检测准确率
 
 \end{itemize}
 
